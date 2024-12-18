@@ -35,6 +35,15 @@ var characters = []Character{
 		Class:       "Физический",
 		Price:       32000,
 	},
+	{
+		Name:        "Лэйла",
+		Description: "Лэйла — стрелок, который может наносить урон на расстоянии и имеет мощные навыки.",
+		ImageURL:    "https://i.pinimg.com/736x/4e/76/68/4e7668c59b55f51addf771af44cfe834.jpg",
+		ReleaseDate: "2016-07-14",
+		Role:        "Стрелок",
+		Class:       "Физический",
+		Price:       32000,
+	},
 }
 
 var users = make(map[string]string)               // username: password
