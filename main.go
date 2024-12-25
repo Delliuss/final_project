@@ -55,7 +55,6 @@ var db *sql.DB
 
 func init() {
 	var err error
-	// Замените строку подключения на вашу
 	connStr := "user=postgres dbname=go password=0000 host=localhost sslmode=disable"
 	db, err = sql.Open("postgres", connStr)
 	if err != nil {
